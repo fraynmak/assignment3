@@ -1,0 +1,199 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  background-color: #00224A;
+  padding-top: 1px;
+  height: 2%;
+}
+
+main{
+  padding: 20px 100px;
+  
+}
+
+body{
+  background-size: cover;
+  background-color: #f0efef;
+  yellow: #f9e42e;
+}
+
+h1{
+  font-size: 30px;
+  color: 
+}
+
+h2{
+  font-weight: 900;
+  /*font-family: 'Open Sans', sans-serif;*/
+}
+}
+
+ul{
+  list-style: none;
+  color: #f9e42e;
+}
+
+li.inline-block{
+  display: inline-block;
+  padding-left: 40px;
+  color: yellow;
+}
+
+a.inline-block:link{
+  text-decoration: none;
+  color: yellow;
+}
+a.inline-block:visited{
+  text-decoration: none;
+  color: yellow;
+}
+
+a.inline-block:hover{
+  text-decoration: underline;
+  color: yellow;
+}
+
+a.inline-block:active{
+  text-decoration: none;
+  color: yellow;
+}
+
+a.readmore:link{
+  text-decoration: none;
+  color: #00224A;
+}
+a.readmore:visited{
+  text-decoration: none;
+  color: #00224A;
+}
+
+a.readmore:hover{
+  text-decoration: underline;
+  color: #00224A;
+}
+
+a.readmore:active{
+  text-decoration: none;
+  color: #00224A;
+}
+
+.readmore{
+  font-weight: 900;
+  float: right;
+}
+
+ .article-2{
+  clear: both;
+  border-top: 1px solid gray;
+ }
+
+section.rightcolumn{
+  float: left;
+  /*max-width: 60%;*/
+  max-width: 100%;
+  width: 700px;
+  border-bottom: 1px solid gray;
+}
+
+.para1,.para2{
+  color: #606161;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: normal;
+}
+
+span.L{
+  text-transform: uppercase;
+  margin: 10px;
+  font-size: 50px;
+}
+
+section.sidecolumn{
+float: right;
+max-width: 20%;
+
+}
+
+a.block{
+  display: block;
+}
+
+a.block:link{
+  text-decoration: none;
+  color: #00224A;
+}
+a.block:visited{
+  text-decoration: none;
+  color: #00224A;
+}
+
+a.block:hover{
+  text-decoration: underline;
+  color: #00224A;
+}
+
+a.block:active{
+  text-decoration: none;
+  color: #00224A;
+}
+
+a.learnmore{
+  text-decoration: none;
+  font-weight: 900;
+  color: #00224A;
+}
+
+
+.logo-top.inline-block{
+  color: white;
+  padding-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  padding-right: 500px;
+}
+
+footer {
+  clear: both;
+  padding-top: 30px;
+  text-align: center;
+}
+
+footer div#call-for-action{
+  background-color: #f9e42e;
+  padding: 30px;
+  margin-top: 30px;
+  /*max-width: 100%;*/
+   max-width: 100%;
+    margin: auto;
+}
+
+.blue-button{
+  background-color: #00224A;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  /*margin: 10%;*/
+ /* width: 20%;*/
+  border-radius: 5px;
+}
+
+footer div.black-background{
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo-bottom{
+  color: white;
+  font-weight: 900;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.copyright{
+  color: white;
+  padding-top: 30px;
+}
+
