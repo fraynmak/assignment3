@@ -9,25 +9,25 @@ header{
 }
 
 main{
-  padding: 20px 100px;
-  
+  width: 100%;
 }
 
 body{
   background-size: cover;
   background-color: #f0efef;
-  yellow: #f9e42e;
 }
 
-h1{
+h1.logotop{
   font-size: 30px;
-  color: 
+  color: white;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 500px;
 }
 
-h2{
-  font-weight: 900;
-  /*font-family: 'Open Sans', sans-serif;*/
-}
+
+nav{
+  display: inline-block;
 }
 
 ul{
@@ -35,10 +35,12 @@ ul{
   color: #f9e42e;
 }
 
-li.inline-block{
+
+li{
   display: inline-block;
-  padding-left: 40px;
+  text-align: right;
   color: yellow;
+  padding-right: 50px;
 }
 
 a.inline-block:link{
@@ -90,11 +92,9 @@ a.readmore:active{
  }
 
 section.rightcolumn{
-  float: left;
-  /*max-width: 60%;*/
-  max-width: 100%;
-  width: 700px;
+  display: inline-block;
   border-bottom: 1px solid gray;
+  width: 60%;
 }
 
 .para1,.para2{
@@ -111,9 +111,8 @@ span.L{
 }
 
 section.sidecolumn{
-float: right;
-max-width: 20%;
-
+display: inline-block;
+width: 20%;
 }
 
 a.block{
@@ -143,15 +142,6 @@ a.learnmore{
   text-decoration: none;
   font-weight: 900;
   color: #00224A;
-}
-
-
-.logo-top.inline-block{
-  color: white;
-  padding-left: 30px;
-  font-size: 30px;
-  font-weight: bold;
-  padding-right: 500px;
 }
 
 footer {
